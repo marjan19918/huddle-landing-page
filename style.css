@@ -3,6 +3,7 @@ body{
     margin: 0cm;
 }
 header{
+    background-color:hsl(193, 100%, 96%) ;
     width: 100%;
     height: auto;
     background-image: url(./images/bg-hero-desktop.svg);
@@ -238,6 +239,11 @@ color: hsl(322, 100%, 66%);
 }
 
 @media  screen and (max-width:460px) {
+    header{
+        background-image: url(./images/bg-hero-mobile.svg);
+    }
+
+
     .top-header img{
         width: 50%;
         
