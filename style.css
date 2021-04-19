@@ -42,6 +42,7 @@ header{
     width: 100%;
 }
 .headerleft{
+    margin-top: 86px;
     width: 35%; 
     display: flex;
     flex-direction: column;
@@ -92,6 +93,7 @@ section{
 }
 .top-section{
     width: 50%;
+    margin-top: 86px;
 }
 .butt-section{
     width: 40%;
@@ -236,6 +238,7 @@ color: hsl(322, 100%, 66%);
          width: 100%; 
          
     }
+    .footer-top{flex-direction: column;}
 }
 
 @media  screen and (max-width:460px) {
@@ -245,12 +248,13 @@ color: hsl(322, 100%, 66%);
 
 
     .top-header img{
-        width: 50%;
+        width: 40%;
         
     }
     .top-header{
         margin: 5px;
     }
+   
     .headerbottom{text-align: center;
        margin: 5px;
          flex-direction: column; 
@@ -260,6 +264,9 @@ color: hsl(322, 100%, 66%);
          margin-bottom: 50px;
          align-items: center;
     }
+    .headerleft h1{
+        font-size: 26px;
+    }
     .headerleft button{
         width: 70%;
         
@@ -268,16 +275,17 @@ color: hsl(322, 100%, 66%);
          width: 100%; 
          
     }
-    .sectiondiv{margin: 10px 2px;
+    .sectiondiv{margin: 15px 10px;;
         
         padding: 1px;
-        flex-direction: column;
+        flex-direction: column-reverse;
         text-align: center;
     }
-    .odd{
+    /* .odd{
         flex-direction: column-reverse;
-    }
+    } */
     .top-section{
+        margin-top: 10px;
         width: 100%;
     }
     .butt-section{
@@ -288,6 +296,10 @@ color: hsl(322, 100%, 66%);
     }
     .center button{
         width: 80%;
+    }
+    .butpques{
+        font-size: 19px;
+        text-align: center;
     }
     footer{
         flex-direction: column;
